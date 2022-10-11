@@ -1,0 +1,143 @@
+.logo{
+width: 13%;
+height: 8%;
+position: absolute;
+padding-left: 8%;
+}
+.snip1135 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+  padding-top: 15px;
+  margin-left: 16%;
+}
+.snip1135 * {
+  box-sizing: border-box;
+}
+.snip1135 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1.5em;
+  padding: 0;
+margin-right: 7%;
+}
+.snip1135 a {
+  padding: 0.5em 0;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.snip1135 a:before,
+.snip1135 a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1135 a:before {
+  bottom: 0;
+  display: block;
+  height: 3px;
+  width: 0%;
+  content: "";
+  background-color: #bb0a1e;
+}
+.snip1135 a:after {
+  left: 0;
+  top: 0;
+  padding: 0.5em 0;
+  position: absolute;
+  content: attr(data-hover);
+  color: #ffffff;
+  white-space: nowrap;
+  max-width: 0%;
+  overflow: hidden;
+}
+.snip1135 a:hover:before,
+.snip1135 .current a:before {
+  opacity: 1;
+  width: 100%;
+}
+.snip1135 a:hover:after,
+.snip1135 .current a:after {
+  max-width: 100%;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+  color: white;
+  word-wrap: break-word;
+  outline: none;
+  font-family: Century Gothic ;
+  color: #FFFFFF;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  background-color: #0B0513;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+.headed{
+background-color: #1D1C1C;
+height: 77px;  
+width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+margin-bottom: 50px;
+}
+.zakrep{
+background-color: #C3596C; 
+width: 250px;
+border: 3px solid #C3596C;
+height: 30px;
+position: fixed;
+border-radius: 15px;
+bottom:0;
+right:0;
+}
+.textet{
+margin-top: 4px;
+}
+.inst, .wts, .vk{
+background-color: #C3596C; 
+position: absolute;
+margin-top: -2px;
+margin-left: 4px;
+width: 25px;
+height: 25px;
+}
+.wts{
+margin-left: 35px;
+}
+.vk{
+margin-left: 70px;
+}
+.map{
+align-content: center;
+margin: auto;
+display: block;
+margin-bottom: 60px;
+margin-left: -5px;
+}
+.kontakti{
+line-height: 40px;
+font-size: 20px;
+color: #ffffff;
+border-right: 2px solid #ffffff;
+width: 42%;
+margin-right: 20px;
+}
+.block{
+  display: flex;
+  margin-bottom: 50px;
+}
+span{
+font-weight: bold;
+font-size: 24px;
+}

@@ -1,0 +1,240 @@
+.logo{
+width: 13%;
+height: 8%;
+position: absolute;
+padding-left: 8%;
+}
+.snip1135 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+  padding-top: 15px;
+  margin-left: 16%;
+}
+.snip1135 * {
+  box-sizing: border-box;
+}
+.snip1135 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1.5em;
+  padding: 0;
+margin-right: 7%;
+}
+.snip1135 a {
+  padding: 0.5em 0;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.snip1135 a:before,
+.snip1135 a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1135 a:before {
+  bottom: 0;
+  display: block;
+  height: 3px;
+  width: 0%;
+  content: "";
+  background-color: #bb0a1e;
+}
+.snip1135 a:after {
+  left: 0;
+  top: 0;
+  padding: 0.5em 0;
+  position: absolute;
+  content: attr(data-hover);
+  color: #ffffff;
+  white-space: nowrap;
+  max-width: 0%;
+  overflow: hidden;
+}
+.snip1135 a:hover:before,
+.snip1135 .current a:before {
+  opacity: 1;
+  width: 100%;
+}
+.snip1135 a:hover:after,
+.snip1135 .current a:after {
+  max-width: 100%;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+  color: white;
+  word-wrap: break-word;
+  outline: none;
+  font-family: Century Gothic ;
+  color: #FFFFFF;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  background-color: #0B0513;
+}
+
+.container {
+  width: 72%;
+  margin: 0 auto;
+  padding: 0;
+}
+.zakrep{
+background-color: #C3596C; 
+width: 250px;
+border: 3px solid #C3596C;
+height: 30px;
+position: fixed;
+border-radius: 15px;
+bottom:0;
+right:0;
+}
+.textet{
+background-color: #C3596C; 
+margin-top: 4px;
+}
+.inst, .wts, .vk{
+background-color: #C3596C; 
+position: absolute;
+margin-top: -2px;
+margin-left: 4px;
+}
+.wts{
+margin-left: 35px;
+}
+.vk{
+margin-left: 70px;
+}
+.headed{
+background-image: url(../img/kvest4.png);
+height: 847px;  
+width: 100%;
+background-repeat: no-repeat;
+left: 0px;
+top: 0px;
+background-size: cover;
+margin-bottom: 150px;
+}
+.headtext{
+padding-left: 60px;
+height: 195px;
+width: 60%;
+font-size: 40px;
+text-align: right;
+margin-right: auto;
+margin-left: auto;
+background-color: transparent;
+padding-top: 330px;
+}
+.bron{
+position: absolute;
+max-width: 400px;
+width: 100%;
+height: 250px;
+left: 65%;
+top: 700px;
+background: #251935;
+border-radius: 10px;
+}
+.nazv{
+width: 70%;
+height: 35px;
+font-family: 'Century Gothic';
+font-size: 35px;
+display: flex;
+margin-right: auto;
+margin-left: auto;
+margin-top: 40px;
+margin-bottom: 100px;
+}
+.btn{
+width: 342px;
+height: 58px;
+background: #C3596C;
+border-radius: 30px;
+padding: 20px 40px 20px 40px;
+text-decoration: none;
+margin-left: 85px;
+}
+.columns-container {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.left-column {
+  margin-right: 15.5%;
+  margin-left: 4.5%;
+  width: 640px;
+}
+.right-column {
+  background: #251935;
+  border-radius: 10px;
+  max-width: 489px;
+  width: 100%;
+  height: 482px;
+}
+.left-column h2{
+font-size: 40px;
+margin-bottom: 40px;
+}
+.txt{
+font-size: 25px;
+width: 80%;
+}
+.txt2{
+width: 100%;
+font-family: 'Century Gothic';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 55px;
+border-bottom: 3px solid #ffffff;
+margin: 0 auto;
+}
+.txt3{
+width: 100%;
+font-family: 'Century Gothic';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 55px;
+margin: 0 auto;
+}
+h3{
+font-size: 40px;
+margin-left: 65px;
+margin-bottom: 40px;
+}
+.reservation{
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+
+.reservation td{
+  font-size: 30px;
+  font-weight: 400;
+  padding: 20px;
+  text-align: center;
+}
+
+.time {
+  background: #251935;
+  padding: 10px 30px;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.price,
+.time {
+  font-size: 20px;
+}
+
+.price {
+  margin-top: 24px;
+}
